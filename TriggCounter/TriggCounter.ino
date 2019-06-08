@@ -13,7 +13,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(laserPin, OUTPUT);
   pinMode(triggPin, INPUT);
-  Serial.begin(9600);
+//  Serial.begin(9600);
 }
 
 void loop() {
@@ -25,8 +25,8 @@ void loop() {
     if (triggState == HIGH){
       triggPulseCounter++;
       
-      Serial.print(triggPulseCounter);
-      Serial.println(" - number of TRIGGER EVENTS");
+   //   Serial.print(triggPulseCounter);
+   //   Serial.println(" - number of TRIGGER EVENTS");
     }
   }
   currTriggState = triggState;
