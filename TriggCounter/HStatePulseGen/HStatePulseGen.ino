@@ -10,10 +10,10 @@ const int frequency = 20; //Hz
  */
 const long interval = 1000/(2*frequency); //ms
 
-//------HIGH intencity- 
+//------HIGH intensity- 
 const int intensity_L = 10;
 
-//------LOW  intencity-
+//------LOW  intensity-
 const int intensity_H = 50;
 
 //-----INIT Conditions-
